@@ -1,0 +1,136 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+
+/*
+background = #020205
+foreground = #e5e5e6
+azul = #3bb6ca
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+}
+.header{
+    background-color: #020205;
+    color: #3bb6ca;
+    border: orange;
+}
+
+.navbar{
+    display: flex;
+    justify-self: flex-end;
+    align-items: flex-end;
+    color: orange;
+    justify-content: space-around;
+    
+
+}
+
+a,li{
+    display: flex;
+    color: orange;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.banner{
+    display: flex;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.banner .container{
+    max-width: 1200px;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5e6;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.footer{
+    display: flex;
+    background-color: #3bb6ca;
+    height: 10vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.version{
+    display: flex;
+    justify-self: center;
+}
+
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.box img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+  align-items: center;
+}
+
+.box h4 {
+  color: #e91e63;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
