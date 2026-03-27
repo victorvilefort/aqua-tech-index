@@ -22,17 +22,20 @@ azul = #3bb6ca
     padding-left: 15px;
     padding-right: 15px;
     height: 100px;
+    
+    border-bottom: 10px solid #3bb6ca;
+    
 }
 .header{
     background-color: #020205;
     color: #3bb6ca;
-    border: orange;
+
 }
 
 .navbar{
     display: flex;
-    justify-self: flex-end;
-    align-items: flex-end;
+
+    align-items: center;
     color: orange;
     justify-content: space-around;
     
@@ -45,6 +48,7 @@ a,li{
     justify-content: space-around;
     padding: 15px;
     align-items: center;
+    text-decoration: none;
 
 }
 
@@ -64,7 +68,10 @@ a,li{
     color: white;
     display: flex;
     align-items: center;
-    font-size: 60px;
+    font-size: 40px;
+    width: 220px;
+    margin-right: 100px;
+
 }
 
 span{
